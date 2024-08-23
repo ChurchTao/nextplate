@@ -12,8 +12,19 @@
 }
 
 // form style
+.form {
+  @apply p-5 bg-primary-light rounded-lg shadow-lg dark:bg-darkmode-primary-light;
+  .iti {
+    display: block;
+  }
+}
+
+.form-info {
+  @apply flex items-center mb-5 px-5 py-5 rounded-lg text-base bg-gray-50 dark:bg-gray-700  border-border dark:border-darkmode-border;
+}
+
 .form-input {
-  @apply w-full rounded border-transparent bg-theme-light px-6 py-4 text-dark placeholder:text-light focus:border-primary focus:ring-transparent dark:border-darkmode-border dark:bg-darkmode-theme-light dark:text-darkmode-light;
+  @apply w-full rounded border-transparent bg-theme-light px-6 py-4 text-dark placeholder:text-dark focus:border-primary focus:ring-transparent dark:border-darkmode-border dark:bg-darkmode-theme-light dark:text-darkmode-light dark:placeholder:text-light;
 }
 
 .form-label {
@@ -175,4 +186,33 @@
   @apply prose-th:relative prose-th:z-10 prose-th:px-4 prose-th:py-[18px] prose-th:text-dark prose-th:dark:text-darkmode-text;
   @apply prose-tr:border-border prose-tr:dark:border-darkmode-border;
   @apply prose-td:relative prose-td:z-10 prose-td:px-3 prose-td:py-[18px] prose-td:dark:text-darkmode-text;
+}
+
+/* styles.css */
+.CollapsibleContent {
+  overflow: hidden;
+}
+.CollapsibleContent[data-state="open"] {
+  animation: slideDown 300ms ease-out;
+}
+.CollapsibleContent[data-state="closed"] {
+  animation: slideUp 300ms ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-collapsible-content-height);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    height: var(--radix-collapsible-content-height);
+  }
+  to {
+    height: 0;
+  }
 }

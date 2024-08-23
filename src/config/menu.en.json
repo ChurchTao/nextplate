@@ -1,57 +1,46 @@
 {
   "main": [
     {
-      "name": "Home",
-      "url": "/"
-    },
-    {
       "name": "About",
-      "url": "/about"
+      "url": "#about"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Features",
+      "url": "#features"
     },
     {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Contact",
-          "url": "/contact"
-        },
-        {
-          "name": "Blog",
-          "url": "/blog"
-        },
-        {
-          "name": "Authors",
-          "url": "/authors"
-        },
-        {
-          "name": "Categories",
-          "url": "/categories"
-        },
-        {
-          "name": "Tags",
-          "url": "/tags"
-        },
-        {
-          "name": "404 Page",
-          "url": "/404"
-        }
-      ]
+      "name": "FAQ",
+      "url": "#qa"
+    },
+    {
+      "name": "Position",
+      "url": "#position"
+    },
+    {
+      "name": "Testimonials",
+      "url": "#testimonials"
     }
   ],
   "footer": [
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "About",
+      "url": "#about"
     },
     {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
+      "name": "Features",
+      "url": "#features"
+    },
+    {
+      "name": "FAQ",
+      "url": "#qa"
+    },
+    {
+      "name": "Position",
+      "url": "#position"
+    },
+    {
+      "name": "Testimonials",
+      "url": "#testimonials"
     }
   ]
 }

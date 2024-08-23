@@ -1,6 +1,5 @@
 "use client";
 
-import SearchModal from "@/components/SearchModal";
 import TwSizeIndicator from "@/helpers/TwSizeIndicator";
 import { useTranslate } from "@/hooks/useTranslate";
 import Footer from "@/partials/Footer";
@@ -23,7 +22,6 @@ export default function NotFound() {
       <TwSizeIndicator />
       <Providers>
         <Header lang={lang} menu={{ main: main || [] }} />
-        <SearchModal lang={lang} />
         <main>
           <section className="section-sm text-center">
             <div className="container">

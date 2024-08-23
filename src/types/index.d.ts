@@ -63,7 +63,7 @@ export type Testimonial = {
 export type Call_to_action = {
   enable?: boolean;
   title: string;
-  description: string;
+  description: any[];
   image: string;
   button: Button;
 };

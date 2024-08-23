@@ -1,27 +1,27 @@
 ---
 enable: true
-title: "Ce que nos clients disent de Nextplate"
-description: "Ne nous faites pas confiance uniquement, entendez-les directement ! Découvrez ce que nos clients ont à dire de Nextplate en consultant les témoignages ci-dessous."
+title: "Client Testimonials"
+description: ""
 
 # Testimonials
 testimonials:
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+  - name: "Jacob"
+    designation: "Remote Full-Stack Engineer"
+    avatar: "/images/avatar-man1.png"
+    content: "I enjoy the flexibility of freelancing through this platform. It’s a fantastic way to earn money online."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+  - name: "Catherine"
+    designation: "Remote Designer"
+    avatar: "/images/avatar-women1.png"
+    content: "I love the freedom of working from home. It’s a great way to earn money online."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+  - name: "Michael"
+    designation: "Remote Backend Developer"
+    avatar: "/images/avatar-man2.png"
+    content: "Remote work has been a game-changer for me. I can now work from anywhere and earn money online."
 
-  - name: "Marvin McKinney"
-    designation: "Web Designer"
-    avatar: "/images/avatar-sm.png"
-    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui iusto illo molestias, assumenda expedita commodi inventore non itaque molestiae voluptatum dolore, facilis sapiente, repellat veniam."
+  - name: "Jessica"
+    designation: "Remote Frontend Developer"
+    avatar: "/images/avatar-women2.png"
+    content: "Working remotely has been a dream come true."
 ---

@@ -11,11 +11,13 @@ export function useTranslate() {
   const pathname = usePathname();
   const possibleLang = pathname.split("/")[1];
 
-  const lang = getActiveLanguages().some((lang) =>
-    lang.languageCode.includes(possibleLang),
-  )
-    ? possibleLang
-    : getDefaultLanguage();
+  const lang = !possibleLang
+    ? getDefaultLanguage()
+    : getActiveLanguages().some((lang) =>
+          lang.languageCode.includes(possibleLang),
+        )
+      ? possibleLang
+      : getDefaultLanguage();
 
   if (typeof window !== "undefined" && !data) {
     setData(JSON.parse(localStorage.getItem(`content-${lang}`) ?? `{}`));

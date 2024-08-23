@@ -22,7 +22,7 @@ const Testimonials = ({ data }: { data: PageData }) => {
   return (
     <>
       {data.frontmatter.enable && (
-        <section className="section">
+        <section className="section bg-gradient" id="testimonials">
           <div className="container">
             <div className="row">
               <div className="mx-auto mb-12 text-center md:col-10 lg:col-8 xl:col-6">
@@ -75,7 +75,7 @@ const Testimonials = ({ data }: { data: PageData }) => {
                             </svg>
                           </div>
                           <blockquote
-                            className="mt-8"
+                            className="mt-8 h-16"
                             dangerouslySetInnerHTML={markdownify(item.content)}
                           />
                           <div className="mt-11 flex items-center">
