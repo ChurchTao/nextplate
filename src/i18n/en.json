@@ -5,6 +5,7 @@
   "mail_placeholder": "Enter your email",
   "age": "Age",
   "age_placeholder": "Enter your age",
+  "gender": "Gender",
   "message": "Anything else?",
   "message_placeholder": "Message goes here...",
   "submit": "Submit",

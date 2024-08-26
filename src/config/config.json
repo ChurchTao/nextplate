@@ -25,7 +25,7 @@
 
   "params": {
     "contact_form_action": "#",
-    "copyright": "Copyright @ All Right Reserved by talentlinkskill.online"
+    "copyright": "Copyright @ All Right Reserved by "
   },
 
   "navigation_button": {
@@ -35,8 +35,7 @@
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "Next Boilerplate"
+    "meta_image": "/images/qa-icon.png",
+    "meta_description": "Talentlinkskill"
   }
 }

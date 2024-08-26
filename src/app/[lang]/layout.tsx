@@ -13,14 +13,15 @@ export default async function Layout({
   params: { lang: string };
 }) {
   const menu = await getTranslations(params.lang);
+  const base_url = process.env.SITE_URL;
 
   return (
     <>
       <TwSizeIndicator />
       <Providers>
-        <Header lang={params.lang} menu={menu} />
+        <Header lang={params.lang} menu={menu} baseUrl={base_url || ""} />
         <main>{children}</main>
-        <Footer lang={params.lang} menu={menu} />
+        <Footer lang={params.lang} menu={menu} baseUrl={base_url || ""} />
       </Providers>
     </>
   );

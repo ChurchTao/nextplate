@@ -1,5 +1,5 @@
 const theme = require("./src/config/theme.json");
-
+const { blackA } = require("@radix-ui/colors");
 let font_base = Number(theme.fonts.font_size.base.replace("px", ""));
 let font_scale = Number(theme.fonts.font_size.scale);
 let h6 = font_scale;
@@ -69,6 +69,7 @@ module.exports = {
           "theme-light": "#222222",
           "theme-dark": "",
         },
+        ...blackA,
       },
       fontSize: {
         base: font_base + "px",
@@ -86,6 +87,23 @@ module.exports = {
       fontFamily: {
         primary: [fontPrimary, fontPrimaryType],
         secondary: [fontSecondary, fontSecondaryType],
+      },
+      keyframes: {
+        overlayShow: {
+          from: { opacity: "0" },
+          to: { opacity: "1" },
+        },
+        contentShow: {
+          from: {
+            opacity: "0",
+            transform: "translate(-50%, -48%) scale(0.96)",
+          },
+          to: { opacity: "1", transform: "translate(-50%, -50%) scale(1)" },
+        },
+      },
+      animation: {
+        overlayShow: "overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1)",
+        contentShow: "contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1)",
       },
     },
   },

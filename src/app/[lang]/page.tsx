@@ -14,6 +14,7 @@ import Link from "next/link";
 import path from "path";
 import { FaCheck } from "react-icons/fa";
 import ApplyForm from "@/components/ApplyForm";
+import IntlTelInput from "intl-tel-input/react";
 
 // remove dynamicParams
 export const dynamicParams = false;
@@ -27,6 +28,7 @@ export async function generateStaticParams() {
 
 const Home = async ({ params }: { params: { lang: string } }) => {
   const lang = params.lang;
+  const base_url = process.env.SITE_URL;
   const language = languages.find(
     (language) => language.languageCode === lang,
   )!;
@@ -56,7 +58,7 @@ const Home = async ({ params }: { params: { lang: string } }) => {
 
   return (
     <>
-      <SeoMeta />
+      <SeoMeta baseUrl={base_url} />
       <section className="section pt-14 bg-gradient">
         <div className="container">
           <div className="row justify-center">
@@ -104,7 +106,7 @@ const Home = async ({ params }: { params: { lang: string } }) => {
               <h1 className="mb-8 text-h3 lg:text-h1 text-center">
                 Apply for Your Job Today!
               </h1>
-              <ApplyForm lang={lang} />
+              <ApplyForm lang={lang} baseUrl={base_url} />
             </div>
           </div>
         </div>

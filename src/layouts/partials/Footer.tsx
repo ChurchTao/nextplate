@@ -5,15 +5,16 @@ import Social from "@/components/Social";
 import config from "@/config/config.json";
 import social from "@/config/social.json";
 import { slugSelector } from "@/lib/utils/slugSelector";
-import { markdownify } from "@/lib/utils/textConverter";
 import { INavigationLink } from "@/types";
 import Link from "next/link";
 
 const Footer = ({
   lang,
+  baseUrl,
   menu,
 }: {
   lang: string;
+  baseUrl: string;
   menu: { footer: INavigationLink[] };
 }) => {
   const { copyright } = config.params;
@@ -41,7 +42,7 @@ const Footer = ({
       </div>
       <div className="border-t border-border py-7 dark:border-darkmode-border">
         <div className="container text-center text-primary dark:text-dark">
-          <p dangerouslySetInnerHTML={markdownify(copyright)} />
+          <p>{`${copyright}${baseUrl}`}</p>
         </div>
       </div>
     </footer>

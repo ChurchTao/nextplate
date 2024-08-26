@@ -14,16 +14,17 @@ import { IoSearch } from "react-icons/io5";
 
 const Header = ({
   lang,
+  baseUrl,
   menu,
 }: {
   lang: string;
+  baseUrl: string;
   menu: { main: INavigationLink[] };
 }) => {
   const activeLanguages = getActiveLanguages();
   const { main }: { main: INavigationLink[] } = menu;
   const { navigation_button, settings } = config;
   const pathname = usePathname();
-  console.log(pathname);
 
   // scroll to top on route change
   useEffect(() => {

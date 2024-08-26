@@ -7,6 +7,7 @@ import { usePathname } from "next/navigation";
 const SeoMeta = ({
   title,
   meta_title,
+  baseUrl,
   image,
   description,
   canonical,
@@ -14,13 +15,13 @@ const SeoMeta = ({
 }: {
   title?: string;
   meta_title?: string;
+  baseUrl?: string;
   image?: string;
   description?: string;
   canonical?: string;
   noindex?: boolean;
 }) => {
-  const { meta_image, meta_author, meta_description } = config.metadata;
-  const base_url = process.env.SITE_URL;
+  const { meta_image, meta_description } = config.metadata;
   const pathname = usePathname();
 
   return (
@@ -42,9 +43,6 @@ const SeoMeta = ({
         content={plainify(description ? description : meta_description)}
       />
 
-      {/* author from config.json */}
-      <meta name="author" content={meta_author} />
-
       {/* og-title */}
       <meta
         property="og:title"
@@ -61,7 +59,7 @@ const SeoMeta = ({
       <meta property="og:type" content="website" />
       <meta
         property="og:url"
-        content={`${base_url}/${pathname.replace("/", "")}`}
+        content={`${baseUrl}/${pathname.replace("/", "")}`}
       />
 
       {/* twitter-title */}
@@ -81,13 +79,13 @@ const SeoMeta = ({
       {/* og-image */}
       <meta
         property="og:image"
-        content={`${base_url}${image ? image : meta_image}`}
+        content={`${baseUrl}${image ? image : meta_image}`}
       />
 
       {/* twitter-image */}
       <meta
         name="twitter:image"
-        content={`${base_url}${image ? image : meta_image}`}
+        content={`${baseUrl}${image ? image : meta_image}`}
       />
       <meta name="twitter:card" content="summary_large_image" />
     </>
