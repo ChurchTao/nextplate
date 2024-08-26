@@ -1,7 +1,6 @@
 {
   "site": {
     "title": "Talentlinkskill",
-    "base_url": "https://nextplate.netlify.app",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",

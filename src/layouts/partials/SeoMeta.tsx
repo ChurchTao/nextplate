@@ -20,7 +20,7 @@ const SeoMeta = ({
   noindex?: boolean;
 }) => {
   const { meta_image, meta_author, meta_description } = config.metadata;
-  const { base_url } = config.site;
+  const base_url = process.env.SITE_URL;
   const pathname = usePathname();
 
   return (

@@ -1,57 +1,46 @@
 {
   "main": [
     {
-      "name": "Maison",
-      "url": "/"
+      "name": "About",
+      "url": "#about"
     },
     {
-      "name": "Propos",
-      "url": "/about"
+      "name": "Features",
+      "url": "#features"
     },
     {
-      "name": "éléments",
-      "url": "/elements"
+      "name": "FAQ",
+      "url": "#qa"
     },
     {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Contact",
-          "url": "/contact"
-        },
-        {
-          "name": "Blog",
-          "url": "/blog"
-        },
-        {
-          "name": "Auteures",
-          "url": "/authors"
-        },
-        {
-          "name": "Catégories",
-          "url": "/categories"
-        },
-        {
-          "name": "Mots-clés",
-          "url": "/tags"
-        },
-        {
-          "name": "Page 404",
-          "url": "/404"
-        }
-      ]
+      "name": "Position",
+      "url": "#position"
+    },
+    {
+      "name": "Testimonials",
+      "url": "#testimonials"
     }
   ],
   "footer": [
     {
-      "name": "Éléments",
-      "url": "/elements"
+      "name": "About",
+      "url": "#about"
     },
     {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
+      "name": "Features",
+      "url": "#features"
+    },
+    {
+      "name": "FAQ",
+      "url": "#qa"
+    },
+    {
+      "name": "Position",
+      "url": "#position"
+    },
+    {
+      "name": "Testimonials",
+      "url": "#testimonials"
     }
   ]
 }
