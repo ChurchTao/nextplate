@@ -1,6 +1,4 @@
 import ImageFallback from "@/helpers/ImageFallback";
-import { markdownify } from "@/lib/utils/textConverter";
-import Link from "next/link";
 import React from "react";
 
 const About = ({ data }: { data: any[] }) => {
@@ -20,6 +18,7 @@ const About = ({ data }: { data: any[] }) => {
                   className="rounded-full w-16 h-16 mx-auto object-contain p-0 mb-4"
                   height={70}
                   width={70}
+                  alt={item.title}
                 />
                 <h4 className="mb-4">{item.title}</h4>
                 <p className="text-gray-500 text-lg">{item.content}</p>

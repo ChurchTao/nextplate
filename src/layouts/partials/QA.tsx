@@ -31,6 +31,7 @@ const QA = ({ data }: { data: PageData }) => {
                   className="rounded-2xl"
                   height={480}
                   width={520}
+                  alt={data.frontmatter.title}
                 />
               </div>
               <div className="md:col-7 lg:col-6">
