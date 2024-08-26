@@ -14,11 +14,9 @@ import { IoSearch } from "react-icons/io5";
 
 const Header = ({
   lang,
-  baseUrl,
   menu,
 }: {
   lang: string;
-  baseUrl: string;
   menu: { main: INavigationLink[] };
 }) => {
   const activeLanguages = getActiveLanguages();

@@ -19,7 +19,7 @@ export default async function Layout({
     <>
       <TwSizeIndicator />
       <Providers>
-        <Header lang={params.lang} menu={menu} baseUrl={base_url || ""} />
+        <Header lang={params.lang} menu={menu} />
         <main>{children}</main>
         <Footer lang={params.lang} menu={menu} baseUrl={base_url || ""} />
       </Providers>

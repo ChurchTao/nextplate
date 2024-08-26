@@ -7,7 +7,15 @@ import Header from "@/partials/Header";
 import Providers from "@/partials/Providers";
 import Link from "next/link";
 
-export default function NotFound() {
+export async function getStaticProps() {
+  return {
+    props: {
+      baseUrl: process.env.SITE_URL,
+    },
+  };
+}
+
+export default function NotFound({ baseUrl }: { baseUrl: string }) {
   const {
     page_not_found,
     page_not_found_content,
@@ -42,7 +50,11 @@ export default function NotFound() {
             </div>
           </section>
         </main>
-        <Footer lang={lang} menu={{ footer: footer || [] }} />
+        <Footer
+          lang={lang}
+          menu={{ footer: footer || [] }}
+          baseUrl={baseUrl || ""}
+        />
       </Providers>
     </>
   );
