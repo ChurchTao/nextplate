@@ -106,7 +106,7 @@ const Home = async ({ params }: { params: { lang: string } }) => {
               <h1 className="mb-8 text-h3 lg:text-h1 text-center">
                 Apply for Your Job Today!
               </h1>
-              <ApplyForm lang={lang} baseUrl={base_url} />
+              <ApplyForm lang={lang} baseUrl={base_url || ""} />
             </div>
           </div>
         </div>
