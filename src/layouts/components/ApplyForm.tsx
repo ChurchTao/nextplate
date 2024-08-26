@@ -139,12 +139,12 @@ const ApplyForm = ({
             >
               {dialogInfo?.title || ""}
             </AlertDialogTitle>
-            <AlertDialogDescription className="mt-4 mb-5 text-[15px] leading-normal">
+            <AlertDialogDescription className="mt-4 mb-5 text-[15px] leading-normal dark:text-darkmode-theme-light">
               {dialogInfo?.description || ""}
             </AlertDialogDescription>
             <div className="flex justify-end gap-[25px]">
               <AlertDialogAction asChild>
-                <button className="text-white bg-primary hover:ring inline-flex h-[35px] items-center justify-center rounded-[4px] px-[15px] font-medium leading-none outline-none focus:shadow-[0_0_0_2px]">
+                <button className="text-white dark:text-darkmode-theme-light bg-primary hover:ring inline-flex h-[35px] items-center justify-center rounded-[4px] px-[15px] font-medium leading-none outline-none focus:shadow-[0_0_0_2px]">
                   Ok
                 </button>
               </AlertDialogAction>
