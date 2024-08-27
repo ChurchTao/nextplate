@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Talentlinkskill",
+    "title": "Part-Time Job",
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
@@ -8,7 +8,7 @@
     "logo_darkmode": "/images/logo.png",
     "logo_width": "115",
     "logo_height": "40",
-    "logo_text": "Talentlinkskill"
+    "logo_text": "Part-Time Job"
   },
 
   "settings": {
@@ -36,6 +36,6 @@
 
   "metadata": {
     "meta_image": "/images/qa-icon.png",
-    "meta_description": "Talentlinkskill"
+    "meta_description": "Part-Time Job"
   }
 }

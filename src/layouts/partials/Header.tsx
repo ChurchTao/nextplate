@@ -1,7 +1,6 @@
 "use client";
 
 import LanguageSwitcher from "@/components/LanguageSwitcher";
-import Logo from "@/components/Logo";
 import ThemeSwitcher from "@/components/ThemeSwitcher";
 import config from "@/config/config.json";
 import { getActiveLanguages } from "@/lib/languageParser";
@@ -35,9 +34,7 @@ const Header = ({
     >
       <nav className="navbar container">
         {/* logo */}
-        <div className="order-0">
-          <Logo lang={lang} />
-        </div>
+        <div className="order-0">{/* <Logo lang={lang} /> */}</div>
         {/* navbar toggler */}
         <input id="nav-toggle" type="checkbox" className="hidden" />
         <label
