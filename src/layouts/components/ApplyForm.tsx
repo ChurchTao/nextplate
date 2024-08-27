@@ -69,7 +69,7 @@ const ApplyForm = ({
     const { dialCode } = contry || {};
     const submitForm: any = {
       ...formDataRef.current,
-      mobile: `+${dialCode}${mobile}`,
+      mobile: `+${dialCode}-${mobile}`,
       fr: process.env.SITE_URL || "",
     };
     if (!submitForm.name) {
