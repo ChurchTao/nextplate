@@ -13,6 +13,9 @@ const otherLanguages = activeLanguages
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  env: {
+    SITE_URL: process.env.SITE_URL,
+  },
   reactStrictMode: true,
   basePath: config.base_path !== "/" ? config.base_path : "",
   trailingSlash: config.site.trailing_slash,

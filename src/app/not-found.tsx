@@ -7,15 +7,7 @@ import Header from "@/partials/Header";
 import Providers from "@/partials/Providers";
 import Link from "next/link";
 
-export async function getStaticProps() {
-  return {
-    props: {
-      baseUrl: process.env.SITE_URL,
-    },
-  };
-}
-
-export default function NotFound({ baseUrl }: { baseUrl: string }) {
+export default function NotFound() {
   const {
     page_not_found,
     page_not_found_content,
@@ -24,6 +16,7 @@ export default function NotFound({ baseUrl }: { baseUrl: string }) {
     main,
     footer,
   } = useTranslate();
+  const baseUrl = process.env.SITE_URL;
 
   return (
     <>

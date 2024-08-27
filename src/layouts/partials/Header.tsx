@@ -17,6 +17,7 @@ const Header = ({
   menu,
 }: {
   lang: string;
+  baseUrl: string;
   menu: { main: INavigationLink[] };
 }) => {
   const activeLanguages = getActiveLanguages();

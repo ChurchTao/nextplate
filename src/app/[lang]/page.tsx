@@ -9,12 +9,11 @@ import Testimonials from "@/partials/Testimonials";
 import About from "@/partials/About";
 import QA from "@/partials/QA";
 import Features from "@/partials/Features";
-import { Button, Feature } from "@/types";
+import { Button } from "@/types";
 import Link from "next/link";
 import path from "path";
 import { FaCheck } from "react-icons/fa";
 import ApplyForm from "@/components/ApplyForm";
-import IntlTelInput from "intl-tel-input/react";
 
 // remove dynamicParams
 export const dynamicParams = false;
