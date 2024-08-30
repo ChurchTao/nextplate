@@ -1,11 +1,11 @@
 {
   "main": [
     {
-      "name": "About",
+      "name": "À propos",
       "url": "#about"
     },
     {
-      "name": "Features",
+      "name": "Fonctionnalités",
       "url": "#features"
     },
     {
@@ -13,21 +13,21 @@
       "url": "#qa"
     },
     {
-      "name": "Position",
+      "name": "Postes",
       "url": "#position"
     },
     {
-      "name": "Testimonials",
+      "name": "Témoignages",
       "url": "#testimonials"
     }
   ],
   "footer": [
     {
-      "name": "About",
+      "name": "À propos",
       "url": "#about"
     },
     {
-      "name": "Features",
+      "name": "Fonctionnalités",
       "url": "#features"
     },
     {
@@ -35,11 +35,11 @@
       "url": "#qa"
     },
     {
-      "name": "Position",
+      "name": "Postes",
       "url": "#position"
     },
     {
-      "name": "Testimonials",
+      "name": "Témoignages",
       "url": "#testimonials"
     }
   ]

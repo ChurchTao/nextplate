@@ -1,14 +1,14 @@
 ---
 enable: true
-title: "Ready to build your next project with Next?"
+title: "Prêt à construire votre prochain projet avec Next ?"
 image: "/images/about-logo.jpg"
 description:
-  - title: "Defining Your Role"
-    content: "Enhance your business with our diverse services, including marketing, surveys, reviews, ratings, product testing, and sales growth. Contact us to learn about our transparent operations and discover more about what we offer."
-  - title: "Excellent Pay, Complete Flexibility"
-    content: "Earn a great income and enjoy full flexibility with our remote jobs. Experience the freedom to work from anywhere, at any time, and achieve the perfect work-life balance. Your ideal job is just a click away, offering not just employment, but a lifestyle change."
+  - title: "Définir Votre Rôle"
+    content: "Améliorez votre entreprise grâce à nos services diversifiés, y compris le marketing, les enquêtes, les avis, les évaluations, les tests de produits et la croissance des ventes. Contactez-nous pour en savoir plus sur nos opérations transparentes et découvrir davantage ce que nous proposons."
+  - title: "Excellent Rémunération, Souplesse Totale"
+    content: "Gagnez un excellent revenu et profitez de toute la flexibilité avec nos emplois à distance. Profitez de la liberté de travailler n'importe où, n'importe quand, et réalisez un parfait équilibre travail-vie personnelle. Votre emploi idéal est à portée de clic, offrant non seulement un emploi, mais un changement de style de vie."
 button:
   enable: true
-  label: "Who We Are"
+  label: "Qui Sommes-Nous"
   link: "#"
 ---

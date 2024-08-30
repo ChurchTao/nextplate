@@ -1,10 +1,10 @@
 ---
 enable: true
-title: "Join Our Team Today"
+title: "Rejoignez Notre Équipe Aujourd'hui"
 image: ""
-description: "Apply now to become part of our team, enjoy the flexibility of remote work, and explore limitless career possibilities. Take this opportunity to start a new chapter in your career journey!"
+description: "Postulez dès maintenant pour faire partie de notre équipe, profitez de la flexibilité du travail à distance, et explorez des possibilités de carrière illimitées. Prenez cette opportunité pour commencer un nouveau chapitre dans votre parcours professionnel !"
 button:
   enable: true
-  label: "Register Now"
+  label: "Inscrivez-Vous Maintenant"
   link: "#apply"
 ---

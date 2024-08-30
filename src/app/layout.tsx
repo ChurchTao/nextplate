@@ -46,6 +46,22 @@ export default function RootLayout({
           }&display=swap`}
           rel="stylesheet"
         />
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16515645206"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16515645206');
+  `,
+          }}
+        ></script>
       </head>
 
       <body suppressHydrationWarning={true}>{children}</body>

@@ -1,27 +1,23 @@
 ---
 enable: true
-title: "Client Testimonials"
+title: "Témoignages Clients"
 description: ""
-
-# Testimonials
+# Témoignages
 testimonials:
   - name: "Jacob"
-    designation: "Remote Full-Stack Engineer"
+    designation: "Ingénieur Full-Stack à Distance"
     avatar: "/images/avatar-man1.png"
-    content: "I enjoy the flexibility of freelancing through this platform. It’s a fantastic way to earn money online."
-
+    content: "J'apprécie la flexibilité de l'indépendant à travers cette plateforme. C'est un excellent moyen de gagner de l'argent en ligne."
   - name: "Catherine"
-    designation: "Remote Designer"
+    designation: "Designer à Distance"
     avatar: "/images/avatar-women1.png"
-    content: "I love the freedom of working from home. It’s a great way to earn money online."
-
+    content: "J'adore la liberté de travailler depuis chez moi. C'est une grande manière de gagner de l'argent en ligne."
   - name: "Michael"
-    designation: "Remote Backend Developer"
+    designation: "Développeur Backend à Distance"
     avatar: "/images/avatar-man2.png"
-    content: "Remote work has been a game-changer for me. I can now work from anywhere and earn money online."
-
+    content: "Le travail à distance a été un véritable changement pour moi. Je peux maintenant travailler de n'importe où et gagner de l'argent en ligne."
   - name: "Jessica"
-    designation: "Remote Frontend Developer"
+    designation: "Développeur Frontend à Distance"
     avatar: "/images/avatar-women2.png"
-    content: "Working remotely has been a dream come true."
+    content: "Travailler à distance a été un rêve réalisé."
 ---
