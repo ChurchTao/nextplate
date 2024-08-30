@@ -10,6 +10,7 @@ export default function RootLayout({
   // import google font css
   const pf = theme.fonts.font_family.primary;
   const sf = theme.fonts.font_family.secondary;
+  const host = process.env.SITE_URL;
 
   return (
     <html suppressHydrationWarning={true} lang="en">
@@ -47,21 +48,25 @@ export default function RootLayout({
           rel="stylesheet"
         />
         {/* <!-- Google tag (gtag.js) --> */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=AW-16515645206"
-        ></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+        {host === "dajyfhfddgz.com" && (
+          <>
+            <script
+              async
+              src="https://www.googletagmanager.com/gtag/js?id=AW-16515645206"
+            ></script>
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'AW-16515645206');
   `,
-          }}
-        ></script>
+              }}
+            ></script>
+          </>
+        )}
       </head>
 
       <body suppressHydrationWarning={true}>{children}</body>
